@@ -24,7 +24,7 @@ Créer une application interactive qui:
 - Design moderne et expérience utilisateur fluide 🎨.
 
 ## 🖼️ Aperçu de l’application
-
+![App main frame](https://github.com/Super-game17/DiaPredict-AI/blob/main/Streamlit-app-screenshot.png?raw=true)
 
 ## Fichiers clés du projet
 - [app.py](app.py): application Streamlit principale.
