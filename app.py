@@ -1038,7 +1038,7 @@ with st.sidebar:
     st.caption(t("qr_info"))
     local_ip = get_local_ip()
     default_url = f"http://{local_ip}:8501"
-    custom_url = st.text_input(t("qr_url_label"), value=default_url)
+    custom_url = st.text_input(t("qr_url_label"), value="https://diapredict-ai.streamlit.app")
     url_to_encode = custom_url if custom_url.strip() != "" else default_url
     qr = qrcode.QRCode(box_size=4, border=2)
     qr.add_data(url_to_encode)
